@@ -1,0 +1,65 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# MLflow
+# ==============================
+mlflow.db
+mlruns/
+**/mlruns/
+mlartifacts/
+**/mlartifacts/
+
+# ==============================
+# Large generated ML artifacts
+# ==============================
+models/*.pkl
+models/X_train_*.pkl
+models/X_test_*.pkl
+models/y_train_*.pkl
+models/y_test_*.pkl
+
+# ==============================
+# Processed datasets
+# ==============================
+data/processed/*.csv
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.log
+
+# ==============================
+# Secrets
+# ==============================
+.env
+.env.*
+.streamlit/secrets.toml
