@@ -1,12 +1,10 @@
 pandas
 numpy
-matplotlib
-seaborn
 scikit-learn
 xgboost
+matplotlib
+seaborn
 jupyter
-notebook
-openpyxl
-streamlit
-mlflow
 joblib
+mlflow
+streamlit

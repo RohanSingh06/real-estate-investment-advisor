@@ -1,0 +1,22 @@
+artifact_path: file:d:/guvi/Real Estate Investment Advisor/notebooks/mlruns/2/models/m-9c511b35eefe4d438373c10cc0598f2b/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.10
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.16.1
+model_id: m-9c511b35eefe4d438373c10cc0598f2b
+model_size_bytes: 494817
+model_uuid: m-9c511b35eefe4d438373c10cc0598f2b
+prompts: null
+run_id: 17ff9c205f1a4c4f9cf4041e121a4dcd
+utc_time_created: '2026-09-25 13:48:09.131571'

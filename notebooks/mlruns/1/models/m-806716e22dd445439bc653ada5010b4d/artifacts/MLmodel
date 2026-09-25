@@ -1,0 +1,24 @@
+artifact_path: file:d:/guvi/Real Estate Investment Advisor/notebooks/mlruns/1/models/m-806716e22dd445439bc653ada5010b4d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-806716e22dd445439bc653ada5010b4d
+model_size_bytes: 6297140
+model_uuid: m-806716e22dd445439bc653ada5010b4d
+prompts: null
+run_id: dc695a1b26124dcc8270401afa5e0ce2
+utc_time_created: '2026-09-25 13:44:19.666227'
